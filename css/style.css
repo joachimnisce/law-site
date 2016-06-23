@@ -1,0 +1,108 @@
+#logo{
+    margin-left: 30px;
+}
+
+.nav-pad {
+  padding: 20px;
+}
+
+
+#vision,
+#mission {
+  background: rgba(189,189,189,0.6);
+  margin-top: 65px;
+}
+
+#mission {
+  display: none;
+}
+
+#client-showcase {
+  background: #212121;
+  color: #eee;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+#client-showcase h6 {
+  margin-top: 0;
+}
+
+.client-img {
+  width: 100px;
+}
+
+#who-img-wrap {
+  text-align: cetner
+}
+
+#who-img {
+  width: 450px;
+}
+
+.what-we-do-section {
+  padding: 30px;
+}
+
+#contact-us-section {
+  background: rgba(13,71,161,0.8);
+}
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
